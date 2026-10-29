@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-29T05:23:55.833653+00:00",
+  "recipient": "lead.architect.a1efba@drift-enterprise.com",
+  "email_type": "verification",
+  "subject": "Verify your email - Software Architecture Drift Detector",
+  "action_url": "http://localhost:5173/verify-email?token=g3kycCPpW3tFmdvhnArxC9VU72C0BrxbE-2BXkoMftk",
+  "token": "g3kycCPpW3tFmdvhnArxC9VU72C0BrxbE-2BXkoMftk",
+  "note": "Development/Testing mode email capture. In production, configure SMTP settings."
+}

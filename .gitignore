@@ -1,0 +1,60 @@
+# Python virtual environments & bytecode
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+
+# Node & Frontend Build
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+*.tsbuildinfo
+
+# Local Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.cert
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Project Extracted Source Archives (Local workspace scratch/data)
+backend/data/projects/*/source/*
+scratch/*.zip
+
+# IDE and OS Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Portable Tools (local dev only, not part of source)
+PortableGit/
+PortableGit.7z.exe
+node-v20.18.0-win-x64/
+node.zip
+*.zip
+
+# Scratch / Test output files
+test_downloaded_report.csv
